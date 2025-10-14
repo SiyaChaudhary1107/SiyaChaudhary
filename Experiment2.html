@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily News - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #1abc9c;
+    }
+    section {
+      padding: 20px;
+    }
+    article {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    iframe, video {
+      display: block;
+      margin: 15px auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Daily News Website</h1>
+    <p>Your Trusted Source of Latest News</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">World</a>
+    <a href="#">Sports</a>
+    <a href="#">Entertainment</a>
+  </nav>
+
+  <section>
+    <article>
+      <h2>Breaking: Technology Updates</h2>
+      <p>Tech giants are investing more in AI. Read the full article on 
+        <a href="https://www.bbc.com/news/technology" target="_blank">BBC Technology</a>.
+      </p>
+      <img src="https://via.placeholder.com/600x300" alt="Tech News Image" width="100%">
+    </article>
+
+    <article>
+      <h2>Sports Highlight: Cricket World Cup</h2>
+      <p>India secures victory in a thrilling match! Visit 
+        <a href="https://www.espncricinfo.com" target="_blank">ESPN Cricinfo</a> for full coverage.
+      </p>
+      <video width="600" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </article>
+
+    <article>
+      <h2>Entertainment: New Movie Trailer</h2>
+      <p>Watch the exclusive trailer of the upcoming blockbuster:</p>
+      <!-- Embedded YouTube Video -->
+      <iframe width="600" height="350" 
+              src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+              title="YouTube video"
+              frameborder="0" 
+              allowfullscreen>
+      </iframe>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Daily News. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
